@@ -21,7 +21,7 @@ function openAg(url, ag) {
   
   agU = Ultraviolet.codec.xor.encode(url);
   localStorage.setItem('agUrl', agU);
-  location.href = '/lessons';
+  location.href = '/rx';
 }
 
 window.navigator.serviceWorker.register("/sw.js", {
